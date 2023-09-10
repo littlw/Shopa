@@ -1,0 +1,21 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #000; /* Set the background color */
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%; /* Set the height to 100% to cover the entire parent container */
+    max-width: 960px; /* Adjust the maximum width to your desired value */
+    margin: 0 auto; /* Center align the navigation bar */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-container {
+      justify-content: center;
+    }
+  }
+  
